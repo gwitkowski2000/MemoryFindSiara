@@ -55,7 +55,7 @@ namespace MemoryFindSiara
 
             btn.Image = GetButtonImage(buttonNumber, 1);
 
-            MessageBox.Show($"Kliknięto przycisk {buttonNumber}");
+           // MessageBox.Show($"Kliknięto przycisk {buttonNumber}");
         }
 
         private List<Point> GetRandomPositions()
@@ -88,6 +88,8 @@ namespace MemoryFindSiara
                     case 2: return Properties.Resources.killer;
                     case 3: return Properties.Resources.JoseArcadioMorales;
                     case 4: return Properties.Resources.JoseArcadioMorales;
+                    case 5: return Properties.Resources.Siara;
+                    case 6: return Properties.Resources.Siara;
                     // Dodaj kolejne obrazy do kolejnych przypadków
                     default: return Properties.Resources.DefaultImage; // Obraz domyślny
                 }
