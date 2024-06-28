@@ -90,6 +90,10 @@ namespace MemoryFindSiara
                     case 4: return Properties.Resources.JoseArcadioMorales;
                     case 5: return Properties.Resources.Siara;
                     case 6: return Properties.Resources.Siara;
+                    case 7: return Properties.Resources.Waski;
+                    case 8: return Properties.Resources.Waski;
+                    case 9: return Properties.Resources.Ryba;
+                    case 10: return Properties.Resources.Ryba;
                     // Dodaj kolejne obrazy do kolejnych przypadków
                     default: return Properties.Resources.DefaultImage; // Obraz domyślny
                 }
