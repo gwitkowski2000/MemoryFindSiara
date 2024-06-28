@@ -32,7 +32,7 @@
             // 
             // Form1
             // 
-            this.ClientSize = new System.Drawing.Size(790, 620);
+            this.ClientSize = new System.Drawing.Size(630, 620);
             this.Name = "Form1";
             this.Text = "Memory Find Siara";
             this.ResumeLayout(false);

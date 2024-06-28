@@ -11,7 +11,7 @@ namespace MemoryFindSiara
         private const int ButtonWidth = 150;  // Szerokość każdego przycisku
         private const int ButtonHeight = 200;  // Wysokość każdego przycisku
         private const int Rows = 3;
-        private const int Columns = 5;
+        private const int Columns = 4;
         private const int Padding = 10;
 
         private List<Button> buttons = new List<Button>();
@@ -27,7 +27,7 @@ namespace MemoryFindSiara
             Random random = new Random();
             var positions = GetRandomPositions();
 
-            for (int i = 0; i < 15; i++)
+            for (int i = 0; i < 3*4; i++)
             {
                 Button btn = new Button
                 {
@@ -94,6 +94,8 @@ namespace MemoryFindSiara
                     case 8: return Properties.Resources.Waski;
                     case 9: return Properties.Resources.Ryba;
                     case 10: return Properties.Resources.Ryba;
+                    case 11: return Properties.Resources.Lipski;
+                    case 12: return Properties.Resources.Lipski;
                     // Dodaj kolejne obrazy do kolejnych przypadków
                     default: return Properties.Resources.DefaultImage; // Obraz domyślny
                 }

@@ -93,6 +93,16 @@ namespace MemoryFindSiara.Properties {
         /// <summary>
         ///   Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Lipski {
+            get {
+                object obj = ResourceManager.GetObject("Lipski", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Ryba {
             get {
                 object obj = ResourceManager.GetObject("Ryba", resourceCulture);
