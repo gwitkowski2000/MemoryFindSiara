@@ -1,4 +1,6 @@
-﻿namespace MemoryFindSiara
+﻿using MemoryFindSiara.Properties;
+
+namespace MemoryFindSiara
 {
     partial class Form1
     {
@@ -34,8 +36,12 @@
             // 
             this.ClientSize = new System.Drawing.Size(630, 620);
             this.Name = "Form1";
-            this.Text = "Memory Find Siara";
+            this.Text = "Memory: Find Siara";
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.ResumeLayout(false);
+            this.Icon = Resources.icon;
         }
 
         #endregion
